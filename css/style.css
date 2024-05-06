@@ -17,14 +17,18 @@ header{
     
 }
 
-.contLinkHeadFoot{
+header .contLinkHeadFoot{
     display: flex;
     align-items: center;
-    color: white;
-    /* probabilmente dovrò lasciare un altezza automatica, da controllare alla fine */
-    height: 1.5rem;
     
 }
+
+.contLinkHeadFoot{
+    color: white;
+    /* probabilmente dovrò lasciare un altezza automatica, da controllare alla fine */
+    
+}
+
 
 .contLinkHeadFoot:last-child{
     justify-content: right;
@@ -42,6 +46,7 @@ header{
 a{
     text-decoration: none;
     color: white;
+    z-index: 20;
     
 }
 
@@ -53,7 +58,7 @@ i, a{
     margin-right: 0.5rem;
 }
 
-i:hover{
+header i:hover{
     color: black;
 }
 
@@ -123,6 +128,7 @@ main .cardModello{
     left: 0;
     
 }
+
 .discount{
    background-color: red; 
    padding: 0.2rem 0.5rem;
@@ -156,9 +162,21 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-footer .contLinkHeadFoot{
-    width: 35%;
+#contLinkMenufooter{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
+}
+
+.contLinkHeadFoot > .contLinkFoot{
+    display: block;
+}
+
+footer i:hover{
+    color: rgb(210, 209, 209);
 }
