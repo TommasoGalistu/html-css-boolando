@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orange;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+header .contMenuHeader{
+    height: 1.5rem;
+    /* debug */
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.contMenuHeader.laterale{
+    width: 20%;
+}
+
+.contMenuHeader.centrale{
+    width: 50%;
+}
