@@ -78,17 +78,33 @@ main{
 
 
 main .cardModello{
-    position: relative;
     color: white;
+    width: calc((100% - 27px)/3);
+    padding-bottom: 0.5rem;
     /* debug */
     background-color: blue;
-    width: calc((100% - 27px)/3);
-    height: 38rem;
 }
 
-.cardModello img{
-    width: 100%;
+.contenitoreFoto{
+    position: relative;
 }
+
+.contenitoreFoto:hover .fotoSecondaria{
+    display: inline-block;
+}
+.cardModello img{
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.fotoSecondaria{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 .heartIcon{
     background-color: white;
@@ -97,12 +113,18 @@ main .cardModello{
     position: absolute;
     top: 1rem;
     right: 0;
+    z-index: 10;
+}
+
+.heartIcon:hover{
+    color: red;
 }
 
 .contDettagliFoto{
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 0;
+    z-index: 10;
 }
 .discount{
    background-color: red; 
@@ -114,6 +136,17 @@ main .cardModello{
     padding: 0.2rem 0.5rem;
 }
 
+.dettagliPrezzi{
+    color: black;
+}
+
+.prezzoScontato{
+    color: red;
+}
+
+.prezzoVecchio{
+    text-decoration: line-through;
+}
 
 
 /* inizio footer */
