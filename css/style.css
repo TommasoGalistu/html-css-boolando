@@ -81,8 +81,6 @@ main .cardModello{
     color: white;
     width: calc((100% - 27px)/3);
     padding-bottom: 0.5rem;
-    /* debug */
-    background-color: blue;
 }
 
 .contenitoreFoto{
@@ -94,8 +92,7 @@ main .cardModello{
 }
 .cardModello img{
     max-width: 100%;
-    height: auto;
-    background-size: cover;
+    height: 100%;
 }
 
 .fotoSecondaria{
