@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: orange;
+    background-color: #FF6900;
     height: 4rem;
     width: 100%;
     display: flex;
@@ -15,17 +15,48 @@ header{
     z-index: 10;
 }
 
-header .contMenuHeader{
+.contLinkHeadFoot{
     height: 1.5rem;
     /* debug */
-    background-color: blue;
+    background-color: yellow;
     border: 1px solid black;
 }
 
-.contMenuHeader.laterale{
-    width: 20%;
+.contLinkHeadFoot.laterale{
+    width: 15%;
 }
 
-.contMenuHeader.centrale{
-    width: 50%;
+.contLinkHeadFoot.centrale{
+    width: 40%;
+}
+
+main{
+    width: 70%;
+    padding-top: 7rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* debug */
+    background-color: red;
+    
+}
+
+
+main .rowContFoto{
+    /* debug */
+    background-color: blue;
+    width: calc((100% - 27px)/3);
+    height: 38rem;
+    
+    border: 1px solid black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 6rem;
+    width: 100%;
+    margin-top: 2rem;
 }
