@@ -12,7 +12,7 @@ header{
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 10;
+    z-index: 100;
     box-shadow: 1px 2px 10px grey;
     
 }
@@ -110,7 +110,7 @@ main .cardModello{
     position: absolute;
     top: 1rem;
     right: 0;
-    z-index: 10;
+    
 }
 
 .heartIcon:hover{
@@ -121,7 +121,7 @@ main .cardModello{
     position: absolute;
     top: 85%;
     left: 0;
-    z-index: 10;
+    
 }
 .discount{
    background-color: red; 
