@@ -64,7 +64,7 @@ header img{
 
 
 
-
+/* inizio main part */
 
 main{
     width: 70%;
@@ -77,15 +77,22 @@ main{
 }
 
 
-main .rowContFoto{
+main .cardModello{
+    position: relative;
     /* debug */
     background-color: blue;
     width: calc((100% - 27px)/3);
     height: 38rem;
-    
-    border: 1px solid black;
 }
 
+.cardModello img{
+    width: 100%;
+}
+
+
+
+
+/* inizio footer */
 footer{
     background-color: black;
     color: white;
