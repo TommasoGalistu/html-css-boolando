@@ -16,6 +16,7 @@ header{
 }
 
 .contLinkHeadFoot{
+    /* probabilmente dovrò lasciare un altezza automatica, da controllare alla fine */
     height: 1.5rem;
     /* debug */
     background-color: yellow;
@@ -59,4 +60,12 @@ footer{
     height: 6rem;
     width: 100%;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contLinkHeadFoot{
+    width: 35%;
+    
 }
